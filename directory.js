@@ -65,8 +65,7 @@ function showSongs() {
         window.location.href = "", "_blank";
         
         // HTML of new page
-        var htmlContent = `
-          <html>
+        <html>
             <head>
               <title>${song.fields.song_name}</title>
               
@@ -258,115 +257,81 @@ function showSongs() {
                   }
                   
                  
-                  @media only screen and (max-width: 925px) {
+                  
+
+                  @media only screen and (max-width: 1000px) {
+                    
+ 
+                     .navbar{
+                       height: 80px;
+                   }
+ 
+                     .nav2{
+                       width: 50px;
+                       float: right;
+                     }
+   
+                     
+   
+                   .submit{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
                    
-
-                    .navbar{
-                      height: 80px;
-                  }
-
-                    .nav2{
-                      width: 50px;
-                      float: right;
+                   .directory{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+   
+                   .images{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+   
+                   .info{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+                   .backButton {         
+                     top: 170px;
+            
+                   }
+ 
+                     .content {
+                       flex-direction: column;
+                     }
+ 
+                     .song-details {
+                       flex-grow: 1;
+                       padding-left: 0rem;
+                       width: 90vw;
+                       padding-top: -2rem;
+                     }
+                     
+                     .song-name {
+                       font-size: 6vw;
+                     }
+                     
+                     .song-description {
+                       font-size: 4vw;
+                     }
+                     
+                     .image-container {
+                       width: 100vw;
+                     }
+                     
+                     .song-image {
+                       max-width: 90vw;
+                     }
+                     .playButton {
+                      font-size: 1.5rem;
+                      width: 180px;
+                      
                     }
-  
-                    
-  
-                  .submit{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-                  
-                  .directory{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-  
-                  .images{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-  
-                  .info{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-                  .backButton {         
-                    top: 170px;
-           
-                  }
+ 
+                   }
 
-
-                }
-                 
-                  @media only screen and (max-width: 744px) {
                    
-                    .navbar{
-                      height: 100px;
-                  }
-
-                  .nav2{
-                    width: 50px;
-                    float: right;
-                  }
-
-                  
-
-                .submit{
-                  margin-right: 0px;
-                  overflow: auto;
-                }
-                
-                .directory{
-                  margin-right: 0px;
-                  overflow: auto;
-                }
-
-                .images{
-                  margin-right: 0px;
-                  overflow: auto;
-                }
-
-                .info{
-                  margin-right: 0px;
-                  overflow: auto;
-                }
-
-                .backButton {         
-                  top: 170px;
-         
-                }
-
-                  
-
-                    .content {
-                      flex-direction: column;
-                    }
-
-                    .song-details {
-                      flex-grow: 1;
-                      padding-left: 0rem;
-                      width: 25rem;
-                      padding-top: -2rem;
-                    }
-                    
-                    .song-name {
-                      font-size: 6vw;
-                    }
-                    
-                    .song-description {
-                      font-size: 4vw;
-                    }
-                    
-                    .image-container {
-                      width: 500px;
-                    }
-                    
-                    .song-image {
-                      max-width: 430px;
-                    }
-
-                  }
                   
                  
                   
@@ -408,26 +373,6 @@ function showSongs() {
             </div>
 
             <script>
-
-            var audio = document.getElementById("audio1");
-var button = document.getElementById("playButton");
-
-function playPause(){
-  if (audio.paused){
-    audio.play();
-    button.classList.add("playing");
-    button.innerHTML = "PAUSE";
-  } else{
-    audio.pause();
-    button.classList.remove("playing");
-    button.innerHTML = "LISTEN";
-  }
-}
-
-            
-
-                
-</script>
 
             </body>
           </html>
