@@ -296,12 +296,16 @@ input[type="range"] {
         background-color: blue;
     } */
 
+    .title{
+        padding-top: 1.5rem;
+    }
       .filter{
         color: white;
         display: block;
-        padding-left: 1rem;
+        padding-left: .5rem;
         padding-right: 1rem;
         font-size: 12px;
+        width: 85%;
     }
 
     .slider-text{
