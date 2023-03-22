@@ -263,76 +263,85 @@ function showSongs() {
                   @media only screen and (max-width: 1000px) {
                     
  
-                     .navbar{
-                       height: 80px;
-                   }
- 
-                     .nav2{
-                       width: 50px;
-                       float: right;
-                     }
-   
-                     
-   
-                   .submit{
-                     margin-right: 0px;
-                     overflow: auto;
-                   }
-                   
-                   .directory{
-                     margin-right: 0px;
-                     overflow: auto;
-                   }
-   
-                   .images{
-                     margin-right: 0px;
-                     overflow: auto;
-                   }
-   
-                   .info{
-                     margin-right: 0px;
-                     overflow: auto;
-                   }
-                   .backButton {         
-                     top: 170px;
-            
-                   }
- 
-                     .content {
-                       flex-direction: column;
-                     }
- 
-                     .song-details {
-                       flex-grow: 1;
-                       padding-left: 0rem;
-                       width: 90vw;
-                       padding-top: -2rem;
-                     }
-                     
-                     .song-name {
-                       font-size: 6vw;
-                     }
-                     
-                     .song-description {
-                       font-size: 4vw;
-                     }
-                     
-                     .image-container {
-                       width: 100vw;
-                     }
-                     
-                     .song-image {
-                       max-width: 90vw;
-                     }
-                     .playButton {
-                      font-size: 1.5rem;
-                      width: 180px;
-                      
+                    .navbar{
+                      height: 150px;
+                  }
+
+                    .nav2{
+                      width: 50px;
+                      float: right;
                     }
- 
+                    .title{
+                     font-size: 3vw;
+                    }
+  
+                    
+  
+                  .submit{
+                    margin-right: 0px;
+                    overflow: auto;
+                    font-size: 3vw;
+                  }
+                  
+                  .directory{
+                    margin-right: 0px;
+                    overflow: auto;
+                    font-size: 3vw;
+                  }
+  
+                  .images{
+                    margin-right: 0px;
+                    overflow: auto;
+                    font-size: 3vw;
+                  }
+  
+                  .info{
+                    margin-right: 0px;
+                    overflow: auto;
+                    font-size: 3vw;
+                  }
+                  .backButton {         
+                    top: 230px;
+                    font-size: 4vw;
+                  }
+
+                    .content {
+                      flex-direction: column;
+                    }
+
+                    .song-details {
+                      flex-grow: 1;
+                      padding-left: 1rem;
+                      width: 90vw;
+                      padding-top: -2rem;
+                    }
+                    
+                    .song-name {
+                      font-size: 6vw;
+                      padding-left: 1rem;
+                    }
+                    
+                    .song-description {
+                      font-size: 4vw;
+                      padding-left: 1rem;
+                      width: 100%;
+                    }
+                    
+                    .image-container {
+                      width: 100vw;
+                    }
+                    
+                    .song-image {
+                      max-width: 90vw;
+                      padding-left: 2rem;
+                    }
+                    .playButton {
+                     font-size: 1.5rem;
+                     width: 180px;
+                     
                    }
 
-                   
+                  }
                   
                  
                   
