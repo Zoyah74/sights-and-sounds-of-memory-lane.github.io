@@ -288,17 +288,10 @@ input[type="range"] {
 
 
 
-@media only screen and (max-width: 900px) {
-    /* body{
-        background-color: red;
-    } */
 
-    
-
-  }
   
   /* styles for screens smaller than 768px */
-  @media only screen and (max-width: 844px) {
+  @media only screen and (max-width: 926px) {
     /* body{
         background-color: blue;
     } */
@@ -307,21 +300,22 @@ input[type="range"] {
         color: white;
         display: block;
         padding-left: 1rem;
-        font-size: 10px;
+        padding-right: 1rem;
+        font-size: 12px;
     }
 
     .slider-text{
 
-        top: -25px;
-        left: 70vw;
-        font-size: 10px;
+        top: 4px;
+        left: 55vw;
+        font-size: 12px;
     
     }
       
     
     input[type="range"] {
-        top: -52px;
-        left: 76vw;
+        top: -26px;
+        left: 66vw;
       }
 
       
