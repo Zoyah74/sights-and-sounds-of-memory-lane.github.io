@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    
+    <title>Sights and Sounds of Memory Lane</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
+    <!-- reset for filer -->
+    <link rel="stylesheet" type="text/css" href="./reset.css">
+
+    <link rel="stylesheet" type="text/css" href="./style-page1.css">
+
+    <script type="text/javascript" src="./airtable.browser.js" defer></script>
+    <script type="text/javascript" src="./page1.js" defer></script>
+    <script type="text/javascript" src="./slider.js" defer></script>
+    <script type="text/javascript" src="./top.js" defer></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="navbar-container">
+    <ul class="navbar">
+
+        <li class="title"> <a href="page1.html">SIGHTS & SOUNDS OF MEMORY LANE</a></li> 
+
+        <ul class="nav2">
+            <li class="images2" ><a style="text-decoration: underline;" href="page1.html">ARCHIVE</a></li>
+            <li class="directory2" ><a href="directory.html">INDEX</a></li>
+            <li class="submit" ><a href="submission-jotform.html">SUBMISSION</a></li>
+            <li class="info2" > <a href="info.html">INFO</a></li>
+        </ul>
+    </ul>
+</div>
+
+
+
+    <div class="slidecontainer">
+        <div class="filter">
+            FILTER BY: 
+            <!-- <span class="js-reset">ALL</span>
+            <span class="music">MUSIC</span> 
+            <span class="daily-audio">DAILY AUDIO</span> 
+            <span class="significant-moments">SIGNIFICANT MOMENTS</span> 
+            <span class="recorded-audio">RECORDED AUDIO</span> 
+            <span class="submissions">SUBMISSIONS</span>  -->
+            
+            <span class="js-reset">ALL |</span>
+            <span class="music">MUSIC |</span> 
+            <span class="daily-audio">DAILY AUDIO |</span> 
+            <span class="significant-moments">SIGNIFICANT MOMENTS |</span> 
+            <span class="recorded-audio">RECORDED AUDIO |</span> 
+            <span class="submissions">SUBMISSIONS</span> 
+            
+        </div>
+       
+        
+        <p class="slider-text">VIEW:</p>
+            <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+        
+        <!-- <input type="range" min="1" max="10" value="5" class="slider" id="myRange"> -->
+    </div>
+
+   
+
+
+    <div class="container" >
+       
+    </div>
+
+    
+    <button onclick="topFunction()" id="backToTop" title="Go to top">TOP</button>
+
+    </div>
+
+
+</body>
+
+</html>

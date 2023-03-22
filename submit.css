@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=IBM+Plex+Mono&display=swap');
+
+body{
+    background-color: black;
+    padding: 2rem;
+    color: white;
+}
+
+.navbar-container{
+    width: 100%;
+}
+
+.title{
+    margin-left: -5rem;
+    float: left;
+}
+.navbar{
+    /* margin-left: -5px; */
+    font-family: 'IBM Plex Mono', monospace;
+    /* padding-left: 2rem; */
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    border-bottom: solid white 1px;
+    padding-bottom: 2rem;
+    /* float: right; */
+    /* display: inline; */
+}
+
+.nav2{
+    /* display: block; */
+    float: right;
+    text-align: right;
+}
+
+
+li{
+    display: inline;
+    margin-right: 1rem;
+    padding-left: 5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+.images2:hover, .submit:hover, .info2:hover, .directory2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.song-name{
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+}
+
+
+.song-name:hover{
+    cursor: pointer;
+}
+
+
+.container{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 6px;
+    grid-row-gap: 1px;
+ }
+
+
+ @media only screen and (max-width: 1000px) {
+
+
+    .title{
+        width: 20px;
+    }
+    img.key{
+        width: 300px;
+    }
+
+
+    .navbar{
+        display: inline-block;
+        font-family: 'IBM Plex Mono', monospace;
+        padding-left: 1rem;
+        font-weight: 400;
+        color: white;
+        font-size: 12px;
+        list-style-type: none;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .title{
+        display: inline-block;
+        /* margin-left: -1rem; */
+        /* margin-top: -2rem; */
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 4vw;
+        width: 55%;
+    
+    }
+    
+    .nav2{
+        width: 50px;
+        float: right;
+    }
+    
+    .info2, .directory2, .images2, .submit{
+        padding-bottom: 1rem;
+        float: right;
+        overflow: auto;
+    }
+
+
+
+}
