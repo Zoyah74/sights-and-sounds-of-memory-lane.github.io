@@ -350,10 +350,11 @@ function showSongs() {
             <ul style="font-family: 'IBM Plex Mono', monospace;" class="navbar">
             <li class="title"> <a href="page1.html">SIGHTS AND SOUNDS OF MEMORY LANE</a></li> 
        <ul class="nav2">
-            <li class="info" style="float:right"> <a href="info.html">INFO</a></li>
-            <li class="submit" style="float:right"> <a href="submission-jotform.html">SUBMISSION</a></li>
-            <li class="directory" style="float:right"><a href="directory.html">INDEX</a></li>
             <li class="images" style="float:right"><a href="page1.html">ARCHIVE</a></li>
+       <li class="directory" style="float:right"><a href="directory.html">INDEX</a></li>
+       <li class="submit" style="float:right"> <a href="submission-jotform.html">SUBMISSION</a></li>
+       
+       <li class="info" style="float:right"> <a href="info.html">INFO</a></li>
         </ul>
     </ul>
         <div class="content">
