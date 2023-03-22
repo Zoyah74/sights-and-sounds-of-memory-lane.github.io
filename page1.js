@@ -161,7 +161,9 @@ function showSongs() {
             @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Exo&family=IBM+Plex+Mono&display=swap');
             @import url("https://use.typekit.net/oto1ukw.css");
-                body{
+                
+            
+            body{
                     padding: 2rem;
                     background-color: black;
                     color: white;
@@ -340,75 +342,83 @@ function showSongs() {
                     color: black;
                   }
                   
-                 
-                  @media only screen and (max-width: 940px) {
-                   body{
-                    background-color:red;
+
+                  
+                  
+
+                  @media only screen and (max-width: 1000px) {
+                    
+ 
+                     .navbar{
+                       height: 80px;
+                   }
+ 
+                     .nav2{
+                       width: 50px;
+                       float: right;
+                     }
+   
+                     
+   
+                   .submit{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+                   
+                   .directory{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+   
+                   .images{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+   
+                   .info{
+                     margin-right: 0px;
+                     overflow: auto;
+                   }
+                   .backButton {         
+                     top: 170px;
+            
+                   }
+ 
+                     .content {
+                       flex-direction: column;
+                     }
+ 
+                     .song-details {
+                       flex-grow: 1;
+                       padding-left: 0rem;
+                       width: 90vw;
+                       padding-top: -2rem;
+                     }
+                     
+                     .song-name {
+                       font-size: 6vw;
+                     }
+                     
+                     .song-description {
+                       font-size: 4vw;
+                     }
+                     
+                     .image-container {
+                       width: 100vw;
+                     }
+                     
+                     .song-image {
+                       max-width: 90vw;
+                     }
+                     .playButton {
+                      font-size: 1.5rem;
+                      width: 180px;
+                      
+                    }
+ 
                    }
 
-                    .navbar{
-                      height: 80px;
-                  }
-
-                    .nav2{
-                      width: 50px;
-                      float: right;
-                    }
-  
-                    
-  
-                  .submit{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-                  
-                  .directory{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-  
-                  .images{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-  
-                  .info{
-                    margin-right: 0px;
-                    overflow: auto;
-                  }
-                  .backButton {         
-                    top: 170px;
-           
-                  }
-
-                    .content {
-                      flex-direction: column;
-                    }
-
-                    .song-details {
-                      flex-grow: 1;
-                      padding-left: 0rem;
-                      width: 90vw;
-                      padding-top: -2rem;
-                    }
-                    
-                    .song-name {
-                      font-size: 6vw;
-                    }
-                    
-                    .song-description {
-                      font-size: 4vw;
-                    }
-                    
-                    .image-container {
-                      width: 100vw;
-                    }
-                    
-                    .song-image {
-                      max-width: 90vw;
-                    }
-
-                  }
+                   
                   
                  
                   
