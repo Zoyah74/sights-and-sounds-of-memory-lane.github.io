@@ -350,12 +350,15 @@ function showSongs() {
                     
  
                      .navbar{
-                       height: 80px;
+                       height: 150px;
                    }
  
                      .nav2{
                        width: 50px;
                        float: right;
+                     }
+                     .title{
+                      font-size: 3vw;
                      }
    
                      
@@ -363,25 +366,29 @@ function showSongs() {
                    .submit{
                      margin-right: 0px;
                      overflow: auto;
+                     font-size: 3vw;
                    }
                    
                    .directory{
                      margin-right: 0px;
                      overflow: auto;
+                     font-size: 3vw;
                    }
    
                    .images{
                      margin-right: 0px;
                      overflow: auto;
+                     font-size: 3vw;
                    }
    
                    .info{
                      margin-right: 0px;
                      overflow: auto;
+                     font-size: 3vw;
                    }
                    .backButton {         
-                     top: 170px;
-            
+                     top: 230px;
+                     font-size: 4vw;
                    }
  
                      .content {
@@ -390,17 +397,20 @@ function showSongs() {
  
                      .song-details {
                        flex-grow: 1;
-                       padding-left: 0rem;
+                       padding-left: 1rem;
                        width: 90vw;
                        padding-top: -2rem;
                      }
                      
                      .song-name {
                        font-size: 6vw;
+                       padding-left: 1rem;
                      }
                      
                      .song-description {
                        font-size: 4vw;
+                       padding-left: 1rem;
+                       width: 100%;
                      }
                      
                      .image-container {
@@ -409,6 +419,7 @@ function showSongs() {
                      
                      .song-image {
                        max-width: 90vw;
+                       padding-left: 2rem;
                      }
                      .playButton {
                       font-size: 1.5rem;
