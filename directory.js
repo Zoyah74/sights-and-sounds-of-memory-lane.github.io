@@ -176,6 +176,14 @@ function showSongs() {
                     font-style: normal;
     
                   }
+                  .song-tag{
+                    font-size: 1vw;
+                    color: grey;
+                    font-family: "ibm-plex-sans", sans-serif;
+                    font-weight: 400;
+                    font-style: italic;
+                    padding-top: 1rem;
+                  }
                   
 
                   .song-category{
@@ -338,6 +346,10 @@ function showSongs() {
                       max-width: 90vw;
                       padding-left: 0rem;
                     }
+                    .song-tag{
+                      font-size: 3vw;
+                      
+                    }
                     .playButton {
                      font-size: 1.5rem;
                      width: 180px;
@@ -381,6 +393,7 @@ function showSongs() {
                     </audio>
 
 <button id="playButton" class="playButton" onclick="playPause()" type="button">LISTEN</button>
+<p class="song-tag">${song.fields.tag}</p>
 
                     
                         </h1>
