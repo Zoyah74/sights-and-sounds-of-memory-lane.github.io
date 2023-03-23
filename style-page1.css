@@ -9,6 +9,14 @@ body {
     overflow-x: hidden;
 }
 
+footer{
+    color: white;
+    /* display: inline; */
+    padding-top: 2rem;
+    font-size: 12px;
+    border-top: 1px solid rgb(85, 85, 85);
+}
+
 
 .filter{
     display: inline-block;
@@ -106,6 +114,7 @@ a{
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 6px;
     grid-row-gap: 6px;
+    padding-bottom: 6rem;
  }
 
 .song-image{
