@@ -61,8 +61,8 @@ function showSongs() {
   
       songName.addEventListener("click", function(){
         // create a new page with the song details
-        var newPage = window.open("", "_blank");
-        window.location.href = "", "_blank";
+        var newPage = window.open("", "_self");
+        window.location.href = "", "_self";
         
         // HTML of new page
         var htmlContent = `
@@ -92,76 +92,64 @@ function showSongs() {
                 }
 
 
-                .navbar{
-                    /* margin-left: -5px; */
-                    font-family: 'IBM Plex Mono', monospace;
-                    padding-left: 2rem;
-                    padding-top:1rem;
-                    font-weight: 400;
-                    color: white;
-                    font-size: 14px;
-                    list-style-type: none;
-                    border-bottom: solid white 1px;
-                    padding-bottom: 1rem;
-
-                }
-
-                .nav2{
+                .navbar-container{
+                  width: 100%;
+              }
+              
+              .title{
+                  margin-left: -5rem;
+                  float: left;
+              }
+              .navbar{
+                  /* margin-left: -5px; */
+                  font-family: 'IBM Plex Mono', monospace;
+                  /* padding-left: 2rem; */
+                  font-weight: 400;
+                  color: white;
+                  font-size: 14px;
+                  list-style-type: none;
+                  border-bottom: solid white 1px;
+                  padding-bottom: 2rem;
+                  /* float: right; */
+                  /* display: inline; */
+              }
+              
+              .nav2{
+                  /* display: block; */
+                  float: right;
+                  text-align: right;
+              }
+              
+              
+              li{
                   display: inline;
-                  float: top;
-                }
-               
-                
-                .title{
-                    margin-left: -1rem;
-                }
-                
-                li{
-                    display: inline;
-                    margin-right: 1rem;
-                    float: top;
-                    font-family: 'IBM Plex Mono', monospace;
-                    float: center;
-                }
-                
-                a{
-                    color: white;
-                    text-decoration: none;
-                }
-                
-                .directory:hover{
-                    text-decoration: underline;
-                }
-
-                .submit{
-                  margin-right: 6rem;
-                }
-
-                .submit:hover{
-                  text-decoration: underline;
-                }
-                
-                .info:hover{
-                    text-decoration: underline;
-                }
-
-                .images:hover{
+                  margin-right: 1rem;
+                  padding-left: 5rem;
+              }
+              
+              a{
+                  color: white;
+                  text-decoration: none;
+              }
+              
+              a:active{
                   text-decoration: underline;
               }
-                
-                .directory{
-                    margin-right: 6rem;
-                    font-family: 'IBM Plex Mono', monospace;
-                }
-
-                .images{
-                    margin-right: 6rem;
-                    font-family: 'IBM Plex Mono', monospace;
-                }
-
-                .info{
-                    font-family: 'IBM Plex Mono', monospace;
-                }
+              
+              .info2:hover{
+                  text-decoration: underline;
+              }
+              .submit:hover{
+                  text-decoration: underline;
+              }
+              
+              .directory2:hover{
+                  text-decoration: underline;
+              }
+              
+              .images2:hover{
+                  text-decoration: underline;
+              }
 
 
 
@@ -171,6 +159,7 @@ function showSongs() {
                     justify-content: space-between;
                     align-items: top;
                     padding-top: 1rem;
+                    padding-bottom: 3rem;
                   }
                   
                   .song-details {
@@ -256,6 +245,13 @@ function showSongs() {
                     background-color: white;
                     color: black;
                   }
+                  footer{
+                    color: white;
+                    padding-top: 2rem;
+                    font-size: 12px;
+                    border-top: 1px solid rgb(85, 85, 85);
+                    font-family: 'IBM Plex Mono', monospace;
+                }
                   
                  
                   
@@ -264,42 +260,39 @@ function showSongs() {
                     
  
                     .navbar{
-                      height: 150px;
-                  }
-
-                    .nav2{
-                      width: 50px;
-                      float: right;
-                    }
-                    .title{
-                     font-size: 3vw;
-                    }
-  
-                    
-  
-                  .submit{
-                    margin-right: 0px;
-                    overflow: auto;
-                    font-size: 3vw;
+                      display: inline-block;
+                      font-family: 'IBM Plex Mono', monospace;
+                      padding-left: 1rem;
+                      font-weight: 400;
+                      color: white;
+                      font-size: 12px;
+                      list-style-type: none;
+                      padding-bottom: 1rem;
+                      width: 100%;
                   }
                   
-                  .directory{
-                    margin-right: 0px;
-                    overflow: auto;
-                    font-size: 3vw;
+                  .title{
+                      display: inline-block;
+                      /* margin-left: -1rem; */
+                      /* margin-top: -2rem; */
+                      font-family: 'IBM Plex Mono', monospace;
+                      font-size: 4vw;
+                      width: 55%;
+                  
                   }
-  
-                  .images{
-                    margin-right: 0px;
-                    overflow: auto;
-                    font-size: 3vw;
+                  
+                  .nav2{
+                      width: 50px;
+                      float: right;
                   }
-  
-                  .info{
-                    margin-right: 0px;
-                    overflow: auto;
-                    font-size: 3vw;
+                  
+                  .info2, .directory2, .images2, .submit{
+                      padding-bottom: 1rem;
+                      float: right;
+                      overflow: auto;
                   }
+
+
                   .backButton {         
                     top: 230px;
                     font-size: 4vw;
@@ -347,16 +340,24 @@ function showSongs() {
                   
                 
             </style>
-            <ul style="font-family: 'IBM Plex Mono', monospace;" class="navbar">
-            <li class="title"> <a href="page1.html">SIGHTS AND SOUNDS OF MEMORY LANE</a></li> 
-       <ul class="nav2">
-            <li class="images" style="float:right"><a href="page1.html">ARCHIVE</a></li>
-       <li class="directory" style="float:right"><a href="directory.html">INDEX</a></li>
-       <li class="submit" style="float:right"> <a href="submission-jotform.html">SUBMISSION</a></li>
-       
-       <li class="info" style="float:right"> <a href="info.html">INFO</a></li>
-        </ul>
-    </ul>
+            
+
+
+            <div class="navbar-container">
+            <ul class="navbar">
+        
+                <li class="title"> <a href="page1.html">SIGHTS & SOUNDS OF MEMORY LANE</a></li> 
+        
+                <ul class="nav2">
+                    <li class="images2" ><a href="page1.html">ARCHIVE</a></li>
+                    <li class="directory2" ><a href="directory.html">INDEX</a></li>
+                    <li class="submit" ><a href="submission-jotform.html">SUBMISSION</a></li>
+                    <li class="info2" > <a href="info.html">INFO</a></li>
+                </ul>
+            </ul>
+        </div>
+
+
         <div class="content">
             
                 <div class="image-container">
@@ -366,8 +367,8 @@ function showSongs() {
                     <h1 class="song-name">${song.fields.song_name}
                     
                     <audio id="audio1">
-  <source src="${song.fields.audio_file[0].url}" type="audio/mpeg">
-</audio>
+                      <source src="${song.fields.audio_file[0].url}" type="audio/mpeg">
+                    </audio>
 
 <button id="playButton" class="playButton" onclick="playPause()" type="button">LISTEN</button>
 
@@ -404,6 +405,9 @@ function playPause(){
 
                 
 </script>
+<footer>
+          <p>ZOYAH SHAH — PARSONS THESIS PROJECT 2023</p>
+      </footer>
 
             </body>
           </html>
@@ -412,7 +416,7 @@ function playPause(){
         newPage.document.write(htmlContent);
         
         // close the new page 
-        newPage.document.body.innerHTML += '<button class="backButton" onclick="window.close()">BACK</button>';
+        newPage.document.body.innerHTML += '<button class="backButton" onclick="window.history.go(); return false;">BACK</button>';
 
         
       });
