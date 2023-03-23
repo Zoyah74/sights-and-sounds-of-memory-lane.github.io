@@ -8,6 +8,14 @@ body{
     color: white;
     
 }
+footer{
+    color: white;
+    /* display: inline; */
+    padding-top: 2rem;
+    font-size: 12px;
+    border-top: 1px solid rgb(85, 85, 85);
+    font-family: 'IBM Plex Mono', monospace;
+}
 
 .navbar-container{
     width: 100%;
@@ -95,6 +103,7 @@ a:active{
 .container{
     display: block;
     padding-top: 1rem;
+    
     /* columns: 2; */
 }
 /* .image-container{
@@ -108,6 +117,7 @@ p{
 .container-info{
     display: inline-block;
     columns: 2;
+    padding-bottom: 3rem;
 }
 .container-left{
     width: 100%;
