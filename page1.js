@@ -66,6 +66,8 @@ function showSongs() {
       songDescription.innerText = song.fields.description;
       songContainer.append(songDescription);
 
+      
+
      
   
       var songName = document.createElement("h1");
@@ -286,6 +288,14 @@ function showSongs() {
                     font-weight: 400;
                     font-style: normal;
                   }
+
+                  .song-submit{
+                    font-size: 1.5vw;
+                    font-family: "ibm-plex-sans-condensed", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: grey;
+                  }
                   
                   .image-container {
                     width: 50%;
@@ -342,10 +352,10 @@ function showSongs() {
                   
 
                   @media only screen and (max-width: 1000px) {
-                    
- body{
-        padding: 1rem;
-    }
+                    body{
+                      padding: 1rem;
+                  }
+ 
                     .navbar{
                       display: inline-block;
                       font-family: 'IBM Plex Mono', monospace;
@@ -465,6 +475,8 @@ function showSongs() {
                    
                    
                     <p class="song-description">${song.fields.description}</p>
+
+                    <p class="song-submit">${song.fields.submit}</p>
                     
                     
 
