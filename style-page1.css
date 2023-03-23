@@ -304,7 +304,9 @@ input[type="range"] {
     /* body{
         background-color: blue;
     } */
-
+body{
+        padding: 1rem;
+    }
     .title{
         padding-top: 1.5rem;
     }
