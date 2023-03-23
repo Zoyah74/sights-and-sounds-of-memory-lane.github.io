@@ -263,7 +263,14 @@ function showSongs() {
                     font-style: normal;
     
                   }
-                  
+                  .song-tag{
+                    font-size: 1vw;
+                    color: grey;
+                    font-family: "ibm-plex-sans", sans-serif;
+                    font-weight: 400;
+                    font-style: italic;
+                    padding-top: 1rem;
+                  }
 
                   .song-category{
                     font-size: 14px;
@@ -410,6 +417,10 @@ function showSongs() {
                        font-size: 6vw;
                        padding-left: 0rem;
                      }
+                     .song-tag{
+                      font-size: 3vw;
+                      
+                    }
                      
                      .song-description {
                        font-size: 4vw;
@@ -463,13 +474,14 @@ function showSongs() {
                 <div class="song-details">
                     <h1 class="song-name">${song.fields.song_name}
                     
+                    
                     <audio id="audio1">
   <source src="${song.fields.audio_file[0].url}" type="audio/mpeg">
 </audio>
 
 <button id="playButton" class="playButton" onclick="playPause()" type="button">LISTEN</button>
 
-                    
+<p class="song-tag">${song.fields.tag}</p>
                         </h1>
 
                    
