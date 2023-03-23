@@ -257,7 +257,9 @@ function showSongs() {
                   
 
                   @media only screen and (max-width: 1000px) {
-                    
+                    body{
+        padding: 1rem;
+    }
  
                     .navbar{
                       display: inline-block;
