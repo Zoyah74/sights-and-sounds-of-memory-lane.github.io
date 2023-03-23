@@ -379,7 +379,7 @@ function showSongs() {
 
                   
                    .backButton {         
-                     top: 230px;
+                     top: 202px;
                      font-size: 4vw;
                    }
  
@@ -389,19 +389,19 @@ function showSongs() {
  
                      .song-details {
                        flex-grow: 1;
-                       padding-left: 1rem;
+                       padding-left: 0rem;
                        width: 90vw;
                        padding-top: -2rem;
                      }
                      
                      .song-name {
                        font-size: 6vw;
-                       padding-left: 1rem;
+                       padding-left: 0rem;
                      }
                      
                      .song-description {
                        font-size: 4vw;
-                       padding-left: 1rem;
+                       padding-left: 0rem;
                        width: 100%;
                      }
                      
@@ -411,7 +411,7 @@ function showSongs() {
                      
                      .song-image {
                        max-width: 90vw;
-                       padding-left: 2rem;
+                       padding-left: 0rem;
                      }
                      .playButton {
                       font-size: 1.5rem;
