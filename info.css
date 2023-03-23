@@ -142,7 +142,9 @@ p{
 
 @media only screen and (max-width: 1000px) {
 
-
+body{
+        padding: 1rem;
+    }
 
     .container-left{
         padding-left: 1rem;
