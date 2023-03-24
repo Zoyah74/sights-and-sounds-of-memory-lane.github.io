@@ -355,8 +355,8 @@ function showSongs() {
                       font-size: 3vw;
                      }
                     .playButton {
-                     font-size: 1.5rem;
-                     width: 180px;
+                     font-size: 14px;
+                      width: 140px;
                      
                    }
 
