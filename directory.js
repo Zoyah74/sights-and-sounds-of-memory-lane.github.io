@@ -29,7 +29,7 @@ function gotAllSongs(err) {
     return;
   }
 
-
+ 
   consoleLogSongs();
   showSongs();
 }
@@ -51,10 +51,20 @@ function showSongs() {
       document.querySelector(".container").append(songContainer);
 
   
-      var songName = document.createElement("h1");
+      var songName = document.createElement("p");
       songName.classList.add("song-name");
       songName.innerText = song.fields.song_name;
       songContainer.append(songName);
+
+      var songSubtitle = document.createElement("p");
+      songSubtitle.classList.add("song-subtitle");
+      songSubtitle.innerText = song.fields.subtitle;
+      songName.append(songSubtitle);
+
+      var songTag = document.createElement("p");
+      songTag.classList.add("song-tag");
+      songTag.innerText = song.fields.tag;
+      songName.append(songTag);
 
       
     
@@ -355,7 +365,7 @@ function showSongs() {
                       font-size: 3vw;
                      }
                     .playButton {
-                     font-size: 14px;
+                      font-size: 14px;
                       width: 140px;
                      
                    }
