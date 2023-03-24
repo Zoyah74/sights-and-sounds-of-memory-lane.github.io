@@ -1,46 +1,44 @@
-// load the airtable library, call it "Airtable"
+
 var Airtable = require("airtable");
 console.log(Airtable);
 
 
 var base = new Airtable({apiKey: 'pat1abmzDxVYS6Ixg.d4503a0262052447816a987da0a31f80dd68945dff0c49d9870ec8ed3e758997'}).base('appdpCPoAToMikJID');
 
-// );
 
-//get the "songs" table from the base, select ALL the records, and specify the functions that will receive the data
 base("songs").select({
     
 }).eachPage(gotPageOfSongs, gotAllSongs);
 
-// an empty array to hold our book data
+
 const songs = [];
 
-// callback function that receives our data
+// callback function that receives the data
 function gotPageOfSongs(records, fetchNextPage) {
   console.log("gotPageOfSongs()");
-  // add the records from this page to our songs array
+  // add the records from this page to thesongs array
     songs.push(...records);
   // request more pages
   fetchNextPage();
 }
 
-// call back function that is called when all pages are loaded
+
 function gotAllSongs(err) {
   console.log("gotAllSongs()");
 
-  // report an error
+
   if (err) {
     console.log("error loading data");
     console.error(err);
     return;
   }
 
-  // call function to show the songs
+
   consoleLogSongs();
   showSongs();
 }
 
-// loop through the song and console.log them
+
 function consoleLogSongs() {
     console.log("consoleLogSongs()");
     songs.forEach((song) => {
@@ -83,7 +81,6 @@ function showSongs() {
 
 
       // add event listener to filter
-      // to add an active class to our song
       var filterMusic = document.querySelector('.music');
       filterMusic.addEventListener("click", function(){
 
