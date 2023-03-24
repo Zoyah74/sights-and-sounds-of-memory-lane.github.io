@@ -140,9 +140,19 @@ p{
     position:relative;
 }
 
+.process-page{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 1vw;
+    text-decoration: underline;
+    /* border: 1px solid white; */
+    /* padding: .5rem; */
+}
+
 @media only screen and (max-width: 1000px) {
 
-body{
+    body{
         padding: 1rem;
     }
 
