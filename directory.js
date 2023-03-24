@@ -1,4 +1,4 @@
-// load the airtable library, call it "Airtable"
+
 var Airtable = require("airtable");
 console.log(Airtable);
 
@@ -10,7 +10,7 @@ base("songs").select({
     
 }).eachPage(gotPageOfSongs, gotAllSongs);
 
-// an empty array to hold the data
+
 const songs = [];
 
 
@@ -29,7 +29,7 @@ function gotAllSongs(err) {
     return;
   }
 
-  // call function to show the songs
+
   consoleLogSongs();
   showSongs();
 }
