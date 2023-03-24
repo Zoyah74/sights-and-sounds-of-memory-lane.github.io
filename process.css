@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=IBM+Plex+Mono&display=swap');
+@import url("https://use.typekit.net/oto1ukw.css");
+
+body{
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    
+}
+footer{
+    color: white;
+    /* display: inline; */
+    padding-top: 2rem;
+    font-size: 12px;
+    border-top: 1px solid rgb(85, 85, 85);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar-container{
+    width: 100%;
+}
+
+.title{
+    margin-left: -5rem;
+    float: left;
+}
+.navbar{
+    /* margin-left: -5px; */
+    font-family: 'IBM Plex Mono', monospace;
+    /* padding-left: 2rem; */
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    border-bottom: solid white 1px;
+    padding-bottom: 2rem;
+    /* float: right; */
+    /* display: inline; */
+}
+
+.nav2{
+    /* display: block; */
+    float: right;
+    text-align: right;
+}
+
+
+li{
+    display: inline;
+    margin-right: 1rem;
+    padding-left: 5rem;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+.directory{
+    margin-right: 6rem;
+    float:right;
+}
+
+.directory2:hover{
+    text-decoration: underline;
+}
+
+.images2:hover{
+    text-decoration: underline;
+}
+
+.info{
+    float:right;
+}
+
+/* .submit{
+    margin-right: 6rem;
+    float:right;
+} */
+
+.submit:hover{
+    text-decoration: underline;
+}
+
+.directory:hover{
+    text-decoration: underline;
+}
+
+.images{
+    margin-right: 6rem;
+    float:right;
+}
+
+.images:hover{
+    text-decoration: underline;
+}
+
+
+
+.container{
+    padding: 2rem;
+}
+.process-title{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+
+}
+
+.content-text1{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .content-images::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+  .content-images1 {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .content-images2 {
+    display: flex;
+  }
+  
+  .column2 {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+  .content-text2{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    padding-top: 1rem;
+}
+
+.content-text3{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    padding-top: 1rem;
+}
+
+.content-text4{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    padding-top: 1rem;
+}
+
+.image5{
+    width: 50%;
+}
+
+.image6{
+    width: 50%;
+}
+
+.minim-text, .processing-text{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    body{
+        padding: 1rem;
+    }
+
+    .navbar{
+        display: inline-block;
+        font-family: 'IBM Plex Mono', monospace;
+        padding-left: 1rem;
+        font-weight: 400;
+        color: white;
+        font-size: 12px;
+        list-style-type: none;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    
+    .title{
+        display: inline-block;
+        /* margin-left: -1rem; */
+        /* margin-top: -2rem; */
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 4vw;
+        width: 55%;
+    
+    }
+    
+    .nav2{
+        width: 50px;
+        float: right;
+    }
+    
+    .info2, .directory2, .images2, .submit{
+        padding-bottom: 1rem;
+        float: right;
+        overflow: auto;
+    }
+
+
+
+
+    .container{
+        padding: 0rem;
+    } 
+    .process-title{
+        font-family: "ibm-plex-sans-condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6vw;
+    
+    }
+    
+    .content-text1,.content-text2, .content-text3{
+        font-family: "ibm-plex-sans-condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3vw;
+    }
+
+    img{
+        width: 100%;
+    }
+    
+
+}
