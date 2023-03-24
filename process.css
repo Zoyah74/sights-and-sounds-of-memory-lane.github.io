@@ -112,12 +112,19 @@ a:active{
     font-size: 3vw;
 
 }
-
+.content-description{
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+    border-bottom: 1px solid white;
+}
 .content-text1{
     font-family: "ibm-plex-sans-condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5vw;
+    padding-top: 2rem;
 }
 
 /* .column {
@@ -242,7 +249,7 @@ a:active{
     
     }
     
-    .content-text1,.content-text2, .content-text3{
+    .content-description, .content-text1,.content-text2, .content-text3{
         font-family: "ibm-plex-sans-condensed", sans-serif;
         font-weight: 400;
         font-style: normal;
