@@ -297,10 +297,10 @@ function showSongs() {
                   }
 
                   .song-submit{
-                    font-size: 1.5vw;
+                    font-size: 1vw;
                     font-family: "ibm-plex-sans-condensed", sans-serif;
                     font-weight: 400;
-                    font-style: normal;
+                    font-style: italic;
                     color: grey;
                   }
                   
@@ -421,7 +421,9 @@ function showSongs() {
                       font-size: 3vw;
                       
                     }
-                     
+                     .song-submit{
+                      font-size: 3vw;
+                     }
                      .song-description {
                        font-size: 4vw;
                        padding-left: 0rem;
