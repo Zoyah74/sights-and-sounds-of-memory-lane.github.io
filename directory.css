@@ -77,11 +77,67 @@ a:active{
     text-decoration: underline;
 }
 
+.header-nav, .header{
+    display: inline-block;
+    width: 100%;
+}
+
+.header-title, .header-subtitle, .header-type{
+    display: inline-block;
+    margin-left: -4rem;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-bottom: 0;
+}
+
+.header-subtitle{
+    margin-left: 26vw;
+}
+
+.header-type{
+    margin-left: 28vw;
+}
+
+
+
+
+
 .song-name{
     font-family: 'Avenir', sans-serif;
     font-weight: 400;
     color: white;
     font-size: 14px;
+    /* width: 200px; */
+    /* display: flex; justify-content: space-between; */
+}
+
+.song-subtitle{
+    /* display: flex; justify-content: space-between; */
+    /* left: 500px; */
+    padding-left: 30vw;
+    padding-top: -2rem;
+    display: inline;
+    width: 280px;
+    /* text-align: center; */
+    /* text-align: center; */
+}
+
+.song-tag{
+    /* display: flex; justify-content: space-between; */
+    /* left: 500px; */
+    padding-left: 74vw;
+    /* padding-top: -4rem; */
+    margin-top: -1rem;
+    /* top: -2rem; */
+    /* display: inline-block; */
+    display: inherit;
+    position: inherit;
+    /* display:grid; */
+    /* position: relative; */
+    width: 280px;
+    /* width: fit-content; */
+    text-align: left;
+    /* float: top; */
+    /* text-align: center; */
 }
 
 
@@ -94,19 +150,21 @@ a:active{
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 1rem;
-    display: grid;
+    display: inline-block;
+    /* flex: row; */
     /* columns: 5; */
     /* overflow: auto; */
     /* column-count: 5; */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-rows: repeat(5, 1fr); */
-    grid-column-gap: 1rem;
-    grid-row-gap: 1px;
+    /* grid-column-gap: 1rem; */
+    /* grid-row-gap: 1px; */
     padding-bottom: 3rem;
+    /* display: flex; justify-content: space-between; */
  }
 
  @media only screen and (max-width: 1000px) {
-body{
+    body{
         padding: 1rem;
     }
 
@@ -148,5 +206,31 @@ body{
         padding-left: 1rem;
 
      }
+
+
+
+     .song-name{
+        font-family: 'Avenir', sans-serif;
+        font-weight: 400;
+        color: white;
+        font-size: 14px;
+        /* width: 200px; */
+        /* display: flex; justify-content: space-between; */
+    }
+    
+    .song-subtitle{
+
+        padding-left: 30vw;
+        top: 20px;
+    }
+    
+    .song-tag{
+        display: none;
+
+    }
+
+    .header-type{
+        display: none;
+    }
 
 }
