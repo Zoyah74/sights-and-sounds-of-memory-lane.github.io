@@ -101,6 +101,46 @@ a:active{
 }
 
 
+.container-info{
+    /* display: inline-block;
+    columns: 2; */
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+    padding-bottom: 3rem;
+    /* width: 100%; */
+
+    border-bottom: 1px solid white;
+}
+.container-left{
+    width: 40vw;
+    font-family: "ibm-plex-sans-condensed", sans-serif;
+    /* padding-left: 2rem; */
+    font-weight: 400;
+    color: white;
+    font-size: 22px;
+
+}
+
+.container-right{
+    /* width: 100%; */
+    padding-top: 1rem;
+    display: flex;
+}
+.right-vid{
+    padding:0% 0 0 0;
+    /* display: inline-block; */
+    position:relative;
+}
+.sample-image{
+    width: 100%;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    border-radius: 50%;
+}
+
+
+
+
 
 .container{
     padding: 2rem;
@@ -112,13 +152,13 @@ a:active{
     font-size: 3vw;
 
 }
-.content-description{
+/* .content-description{
     font-family: "ibm-plex-sans-condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.5vw;
     border-bottom: 1px solid white;
-}
+} */
 .content-text1{
     font-family: "ibm-plex-sans-condensed", sans-serif;
     font-weight: 400;
@@ -259,6 +299,16 @@ a:active{
     img{
         width: 100%;
     }
+
+    .container-info{
+        display: block;
+    }
+
+    .container-left{
+        width: 90vw;
+    }
+
+   
     
 
 }
