@@ -233,4 +233,22 @@ a:active{
         display: none;
     }
 
+    .header-nav, .header-title{
+        float: bottom;
+    }
+
+    .header-title{
+        /* padding-bottom: -10rem; */
+        /* display: inline; */
+        bottom: -5rem;
+    }
+
+    .header-subtitle{
+        /* padding-bottom: -10rem; */
+        display: inline;
+        text-align: left;
+    }
+
+
+
 }
